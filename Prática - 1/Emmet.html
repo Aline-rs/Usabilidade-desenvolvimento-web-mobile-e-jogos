@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Filhos-->
+
+    <!-- div>ul>li -->
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- table>thead>th -->
+
+    <table>
+        <thead>
+            <th></th>
+        </thead>
+    </table>
+
+    <!-- table>tr>td -->
+
+    <table>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+
+    <!--Irmãos-->
+
+    <!-- div+ul>li+p -->
+
+    <div></div>
+    <ul>
+        <li></li>
+        <p></p>
+    </ul>
+
+    <!-- div>p+div>p+footer -->
+
+    <div>
+        <p></p>
+        <div>
+            <p></p>
+            <footer></footer>
+        </div>
+    </div>
+
+    <!-- Escalar atributos-->
+
+    <!-- div>header>h1^section>article>h2+p^^footer>ul>li -->
+
+    <div>
+        <header>
+            <h1></h1>
+        </header>
+        <section>
+            <article>
+                <h2>
+                    <p></p>
+                </h2>
+            </article>
+        </section>
+        <footer>
+            <ul>
+                <li></li>
+            </ul>
+        </footer>
+    </div>
+
+    <!-- div^ul>li^p-->
+
+    <div></div>
+    <ul>
+        <li></li>
+    </ul>
+    <p></p>
+
+    <!-- div>header>h1^section>article>h2+p^^footer>ul>li -->
+
+    <div>
+        <header>
+            <h1></h1>
+        </header>
+        <section>
+            <article>
+                <h2></h2>
+                <p></p>
+            </article>
+        </section>
+        <footer>
+            <ul>
+                <li></li>
+            </ul>
+        </footer>
+    </div>
+
+    <!-- Multiplicações -->
+
+    <!-- ul>li*3-->
+
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- table>tr*3>td*3 -->
+
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!-- Agrupamento -->
+
+    <!-- div>(ul>li*3>a)+div -->
+
+    <div>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+        <div></div>
+    </div>
+
+    <!-- table>(thead>tr*3)+tbody>tr>td*3 -->
+
+    <table>
+        <thead>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Texto -->
+
+    <!-- div>p>{lorem}(ul>li*3>a{clique }b{aqui})+div -->
+
+    <div>
+        <p>
+            lorem
+            <ul>
+                <li><a href="">clique </a><b>aqui</b></li>
+                <li><a href="">clique </a><b>aqui</b></li>
+                <li><a href="">clique </a><b>aqui</b></li>
+            </ul>
+            <div></div>
+        </p>
+    </div>
+    
+    <!-- ul>li*3>a{me clique} -->
+
+    <ul>
+        <li><a href="">me clique</a></li>
+        <li><a href="">me clique</a></li>
+        <li><a href="">me clique</a></li>
+    </ul>
+
+    <!-- a*3>{clique }+b{aqui} -->
+
+    <a href="">clique <b>aqui</b></a>
+    <a href="">clique <b>aqui</b></a>
+    <a href="">clique <b>aqui</b></a>
+
+    <!-- Operadores de atributos> Id e Classe -->
+
+    <!-- ID #header -->
+
+    <div id="header"></div>
+
+    <!-- Class .page -->
+
+    <div class="page"></div>
+
+    <!-- Class .container -->
+
+    <div class="container"></div>
+
+    <!-- Operadores e Multiplicadores div.row>div*3.col-sm-4 -->
+
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4"></div>
+    </div>
+
+    <!-- Sem escrever div .container>.row>div*3.col-md-4-->
+
+    div <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+
+    <!-- Utilizando ID ou Class pelo Pai - ul>.nav-item*3 -->
+
+    <ul>
+        <li class="nav-item"></li>
+        <li class="nav-item"></li>
+        <li class="nav-item"></li>
+    </ul>
+
+    <!-- OUTROS ATRIBUTOS a[href=# title=descricao]*4-->
+
+    <a href="#" title="descricao"></a>
+    <a href="#" title="descricao"></a>
+    <a href="#" title="descricao"></a>
+    <a href="#" title="descricao"></a>
+
+    <!-- OUTROS ATRIBUTOS img[width=200 height=100]*4 -->
+
+    <img src="" alt="" width="200" height="100">
+    <img src="" alt="" width="200" height="100">
+    <img src="" alt="" width="200" height="100">
+    <img src="" alt="" width="200" height="100">
+
+    <!-- Itens numéricos -->
+
+    <!-- ul>li.item$*3-->
+
+    <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+    </ul>
+
+    <!-- ul>li*3>a{item$$$} -->
+
+    <ul>
+        <li><a href="">item001</a></li>
+        <li><a href="">item002</a></li>
+        <li><a href="">item003</a></li>
+    </ul>
+
+    <!-- a[href=item$$$@-]{texto$$@-3}*5 -->
+
+    <a href="item005">texto07</a>
+    <a href="item004">texto06</a>
+    <a href="item003">texto05</a>
+    <a href="item002">texto04</a>
+    <a href="item001">texto03</a>
+
+</body>
+</html>
