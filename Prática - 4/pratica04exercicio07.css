@@ -1,0 +1,50 @@
+*{
+    padding: 1rem;
+}
+tr:hover {
+    background-color: #FF4500 !important;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.0rem;
+    }
+tr:nth-child(even) {
+background-color: #8b9dc3;
+}
+tr:nth-child(odd) {
+background-color: #dfe3ee;
+}
+#media{
+    color: #ffffff;
+    background-color: #FF4500;
+}
+#media:hover{
+    background-color: #FF4500 !important;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.0rem;
+}
+
+#colum{
+    background-color:rgb(51, 83, 143);
+    color: #FFFF;
+
+}
+#colum:hover{
+    background-color:rgb(51, 83, 143) !important;
+    color: #FF4500;
+    font-weight: bold;
+    font-size: 1.0rem;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    vertical-align: top;
+}
+#web, #logica{
+    color: rgb(51, 83, 143);
+    text-align: left;
+    
+}

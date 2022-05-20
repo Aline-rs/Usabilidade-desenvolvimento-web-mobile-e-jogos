@@ -1,0 +1,22 @@
+*{
+    padding: 1rem;
+}
+.um{
+    background-color: #d1c412 !important;
+}
+
+.dois{
+    background-color: #98d8d3 !important;
+}
+.um:hover{
+    background-color: #98d8d3 !important;
+}
+
+.dois:hover{
+    background-color: #d1c412 !important;
+    
+}
+#colum{
+    background-color:rgb(51, 83, 143);
+    color: #FFFF;
+}

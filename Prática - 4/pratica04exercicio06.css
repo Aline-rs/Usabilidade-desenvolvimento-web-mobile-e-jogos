@@ -1,0 +1,25 @@
+tr:hover {
+    background-color: #ffffff !important;
+    color: #FF4500;
+    font-weight: bold;
+    font-size: 1.0rem;
+    }
+tr:nth-child(even) {
+background-color: #8b9dc3;
+}
+tr:nth-child(odd) {
+background-color: #dfe3ee;
+}
+#media{
+    color: #ffffff;
+    background-color: #FF4500;
+}
+#media:hover{
+    background-color: #ffffff !important;
+    color: #FF4500;
+    font-weight: bold;
+    font-size: 1.0rem;
+}
+th{
+    border: 30px;
+}

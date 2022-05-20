@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    <title>Formulário</title>
+    <style>
+        form {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color: darkorange;
+            width: 390px; 
+            margin-left: auto;
+            margin-right: auto; 
+            height: 170px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+
+        label[for=name]{ 
+            position: relative;
+            top: 10px;
+            left: 10px;
+            height: 50px;
+       
+        }
+        label[for=escolaridade]{ 
+            position: relative;
+            top: 10px;
+            left: 10px;
+            height: 35px;
+       
+        }
+        label[for=Veiculo]{ 
+            position: relative;
+            top: 10px;
+            left: 10px;
+            height: 60px;
+       
+        }
+        button{
+            padding: 15px;
+            background-color: rgb(230, 189, 100);
+            border: none;
+            position: relative;
+            top: -5px;
+            left: 20px;
+        }
+        .container input[type=text]{
+            padding: 10px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+        <form action="https://www.google.com/">
+            <label for="name">Nome: <input type="text" placeholder="informe seu nome" id=""></label>
+            <label for="escolaridade">Escolariade:
+                <label for="Fundamental"><input type="radio" name="Fundamental" id="">Fundamental</label>
+                <label for="Medio"><input type="radio" name="Fundamental" id="">Médio</label>
+                <label for="Superior"><input type="radio" name="Fundamental" id="">Superior</label>
+            </label>
+            <label for="Veiculo">Veículo:
+                <label for="Bicicleta"><input type="checkbox" name="bicicleta" id="">Bicicleta</label>
+                <label for="Moto"><input type="checkbox" name="Moto" id="">Moto</label>
+                <label for="Carro"><input type="checkbox" name="Carro" id="">Carro</label>
+            </label>
+            <label for="Enviar"><button><strong>Enviar</strong></button></label>
+        </form>
+    </main>
+</body>
+
+</html>
