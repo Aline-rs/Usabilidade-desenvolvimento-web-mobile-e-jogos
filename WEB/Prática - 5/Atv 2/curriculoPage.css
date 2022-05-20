@@ -1,0 +1,19 @@
+*{
+    padding: 0.95 rem;
+}
+
+table{
+    background-color: lightgrey;
+    border: 2px solid black;
+    padding: 1%;
+    
+}
+img{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 90px;
+    border-radius: 15px;
+}
