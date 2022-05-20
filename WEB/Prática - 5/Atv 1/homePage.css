@@ -1,0 +1,53 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-style: none;
+
+}
+body{
+    background-color: #FF5733;
+}
+header{
+    height: 15vh;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    font-size: 40px;
+  }
+
+img{
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    border-radius: 50%;
+}
+#bolo{
+    position: absolute;
+    left: 10%; 
+	top: 250px;
+    text-align:center;
+    font-size: 32px;
+    
+}
+#pao{
+    position: absolute;
+    left: 40%; 
+	top: 250px;
+    text-align: center;
+    font-size: 32px;
+    
+}
+#chuva{
+    position: absolute;
+    left: 65%; 
+	top: 250px;
+    text-align: center;
+    font-size: 32px;
+}
+.container{
+    position: relative;
+    margin-top: -150px;
+    margin-left: 100px;
+    margin-right: 50px;
+}

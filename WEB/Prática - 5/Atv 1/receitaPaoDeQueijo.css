@@ -1,0 +1,40 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-style: none;
+
+}
+body{
+    background-color: #FF5733;
+}
+header{
+    height: 15vh;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    font-size: 40px; 
+}
+.retorno{
+    font-size: 20px;
+    position: absolute;
+    top: 35px;
+    left: 70px;
+    
+}
+img{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    margin-left: -600px ;
+    border-radius: 20px;
+}
+h2{
+    font-size: 25px;
+}
+#massa, #cobertura, #preparo{
+    margin-left: 500px;
+    text-align:left;
+    font-size: 25px;
+    
+}
